@@ -44,6 +44,7 @@ import {
     ElementTurnLeft,
     ElementTurnRight,
     ElementSetXY,
+    ElementSetHeading,
     ElementSetColor,
     ElementSetThickness,
 } from './painter';
@@ -85,6 +86,12 @@ export const specification: {
         type: 'Statement',
         category: 'Graphics',
         prototype: ElementSetXY,
+    },
+    'set-heading': {
+        label: 'set heading',
+        type: 'Statement',
+        category: 'Graphics',
+        prototype: ElementSetHeading,
     },
     'set-color': {
         label: 'set color',
